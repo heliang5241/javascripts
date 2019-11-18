@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script type="text/javascript">
+			hello:
+			for(var i=0;i<5;i++){
+//				continue;
+				console.log("外层循环"+i);
+//				continue离它最近的循环起作用
+				for(var j=0;j<5;j++){
+					break hello;
+					console.log(j);
+				}
+			}
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>

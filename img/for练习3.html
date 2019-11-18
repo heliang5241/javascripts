@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<!--// 水仙花数  一个3位数 每个位上的数字3次幂之和等于它本身-->
+		<script type="text/javascript">
+  			for(var i=100;i<1000;i++){
+  				var baiwei = parseInt(i/100);
+  				var shiwei = parseInt(i/10%10);
+  				var gewei = i%10;
+  				if(baiwei*baiwei*baiwei + shiwei*shiwei*shiwei + gewei*gewei*gewei == i){
+  					console.log(i);
+  				}
+  			}
+//			var num =231;
+//			var baiwei = parseInt(num/100);
+//			var shiwei = parseInt(num/10%10);
+//			var gewei = parseInt(num%10);
+//			console.log(baiwei);
+//			console.log(shiwei);
+//			console.log(gewei);
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>

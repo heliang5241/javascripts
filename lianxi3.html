@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script type="text/javascript">
+		  	//对他们进行排序 从小到大排序
+  			var a = Number(prompt("a"));
+  			var b = Number(prompt("b"));
+  			var c = Number(prompt("c"));
+			var min = a<b?(a<c?a:c):(b<c?b:c);
+			var max = a>b?(a>c?a:c):(b>c?b:c);
+			if(a<max&&a>min){
+				console.log(min,a,max);
+			}else if(b<max&&b>min){
+				console.log(min,b,max);
+			}else{
+				console.log(min,c,max);
+			}
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>
